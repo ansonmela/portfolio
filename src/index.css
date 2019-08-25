@@ -1,61 +1,58 @@
-body {
-    background-color: #FFCC00;
-    padding: 20px;
-    margin: 0;
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: springgreen;
 }
 
-h1, h2, p, ul, li {
-    font-family: sans-serif;
+img {
+    border-radius: 50%;
+    width: 250px;
 }
 
-ul.header li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
+#section1 {
+    background-image: url(./Images/code_flow.jpg);
+    background-size: cover;
+    background-position: 80%;
 }
 
-ul.header {
-    background-color: #111;
-    padding: 0;
+#section2 {
+    background-image: url(./Images/laptop.jpg);
+    background-size: cover;
+    background-position: 80%;
 }
 
-ul.header li a {
-    color: #FFF;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
+#section3 {
+    background-image: url(./Images/books.jpg);
+    background-size: cover;
+    background-position: 80%;
 }
 
-.content {
-    background-color: #FFF;
-    padding: 20px;
+#bioSection {
+    font-size: 30px;
+    text-align: center;
+    height: 850px;
+    color: springgreen;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.content h2 {
-    padding: 0;
-    margin: 0;
+
+
+.skillsList {
+    text-align: center;
+    color: darkred;
 }
 
-.content li {
-    margin-bottom: 10px;
+#stackSection {
+    font-size: 30px;
+    text-align: center;
+    height: 850px;
+    color: darkred;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.active {
-    background-color: #0099FF;
-}
-
-.homeContent {
-    background-color: white;
-    padding: 10px;
-}
-
-.stuffContent {
-    background-color: green;
-    padding: 10px;
-}
-
-.contactContent {
-    background-color: white;
-    padding: 10px;
+.jsSkillPic {
+    image-rendering: auto;
 }
